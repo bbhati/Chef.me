@@ -32,7 +32,21 @@ User can add/remove items from ingredients to the shoping cart. Ingredients can 
 6) Once done is pressed from shopping cart, Shipping and price info is presented.
 ![alt tag](https://raw.github.com/bbhati/Chef.me/master/mockups/shipping.png)
 
-Proceed to checkout redirects the user to stripe for payment.
+Proceed to checkout redirects the user to stripe for payment, if the user is already logged in. If the user is not logged in, a login screen will appear.
 
+Logged In v/s Logged out:
 
+If a user is not already logged in, they will be required to login in 3 scenarios:
+ - Clicking on 'My Account'
+ - Bookmarking a recipe
+ - Clicking on 'Proceed to Checkout'
+ - Clicking to share a recipe
+  
+Account/Settings page:
+
+![alt tag](https://raw.github.com/bbhati/Chef.me/blob/master/mockups/Screen%20Shot%202014-02-04%20at%209.39.02%20AM.png)
+
+Payment Confirmation:
+
+![alt tag](https://raw.github.com/bbhati/Chef.me/master/mockups/PaymentConfirmation.png)
 

@@ -3,6 +3,10 @@ Chef.me
 
 iOS class project
 
+User will see a dynamic splash screen for the very first time app is opened
+
+![alt tag](https://raw.github.com/bbhati/Chef.me/master/mockups/Splash_Screen.png)
+
 1) Once the user has opened the app atleast once, the first screen shows trending recipes on upper part and courses categorized below.
 
 ![alt tag](https://raw.github.com/bbhati/Chef.me/master/mockups/screenshot_home.png)
@@ -49,4 +53,14 @@ Account/Settings page:
 Payment Confirmation:
 
 ![alt tag](https://raw.github.com/bbhati/Chef.me/master/mockups/PaymentConfirmation.png)
+
+Login screen: 
+
+![alt tag](https://raw.github.com/bbhati/Chef.me/master/mockups/login_screen.png)
+
+Favorites/Bookmarks:
+
+![alt tag](https://raw.github.com/bbhati/Chef.me/master/mockups/favorites.png)
+
+
 

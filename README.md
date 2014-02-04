@@ -7,7 +7,9 @@ iOS class project
 
 ![alt tag](https://raw.github.com/bbhati/Chef.me/master/mockups/screenshot_home.png)
 
-2) On opening a category, tableview: ![alt tag](https://raw.github.com/bbhati/Chef.me/master/mockups/tableview.png)
+2) On opening a category, tableview: 
+
+![alt tag](https://raw.github.com/bbhati/Chef.me/master/mockups/tableview.png)
 
 3) After selecting a recipe: Tabbed view with tabs: Description, Ingredients and Steps
 

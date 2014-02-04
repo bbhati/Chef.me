@@ -44,7 +44,7 @@ If a user is not already logged in, they will be required to login in 3 scenario
   
 Account/Settings page:
 
-![alt tag](https://raw.github.com/bbhati/Chef.me/blob/master/mockups/Screen%20Shot%202014-02-04%20at%209.39.02%20AM.png)
+![alt tag](https://raw.github.com/bbhati/Chef.me/master/mockups/Screen%20Shot%202014-02-04%20at%209.39.02%20AM.png)
 
 Payment Confirmation:
 

@@ -14,13 +14,15 @@
 		2427DFE718A9E68800FC9BA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2427DFE618A9E68800FC9BA9 /* main.m */; };
 		2427DFEB18A9E68800FC9BA9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2427DFEA18A9E68800FC9BA9 /* AppDelegate.m */; };
 		2427DFEE18A9E68800FC9BA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2427DFEC18A9E68800FC9BA9 /* Main.storyboard */; };
-		2427DFF118A9E68800FC9BA9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2427DFF018A9E68800FC9BA9 /* ViewController.m */; };
 		2427DFF318A9E68800FC9BA9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2427DFF218A9E68800FC9BA9 /* Images.xcassets */; };
 		2427DFFA18A9E68800FC9BA9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2427DFF918A9E68800FC9BA9 /* XCTest.framework */; };
 		2427DFFB18A9E68800FC9BA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2427DFDA18A9E68800FC9BA9 /* Foundation.framework */; };
 		2427DFFC18A9E68800FC9BA9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2427DFDE18A9E68800FC9BA9 /* UIKit.framework */; };
 		2427E00418A9E68800FC9BA9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2427E00218A9E68800FC9BA9 /* InfoPlist.strings */; };
 		2427E00618A9E68800FC9BA9 /* Chef_meTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2427E00518A9E68800FC9BA9 /* Chef_meTests.m */; };
+		24F9BAFD18AB3AF60002AA46 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F9BAFB18AB3AF60002AA46 /* LoginViewController.m */; };
+		24F9BAFE18AB3AF60002AA46 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24F9BAFC18AB3AF60002AA46 /* LoginViewController.xib */; };
+		24F9BB0718AB40CE0002AA46 /* background_login.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 24F9BB0618AB40CE0002AA46 /* background_login.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +47,16 @@
 		2427DFE918A9E68800FC9BA9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2427DFEA18A9E68800FC9BA9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2427DFED18A9E68800FC9BA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2427DFEF18A9E68800FC9BA9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2427DFF018A9E68800FC9BA9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2427DFF218A9E68800FC9BA9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2427DFF818A9E68800FC9BA9 /* Chef.meTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Chef.meTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2427DFF918A9E68800FC9BA9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		2427E00118A9E68800FC9BA9 /* Chef.meTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Chef.meTests-Info.plist"; sourceTree = "<group>"; };
 		2427E00318A9E68800FC9BA9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2427E00518A9E68800FC9BA9 /* Chef_meTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Chef_meTests.m; sourceTree = "<group>"; };
+		24F9BAFA18AB3AF60002AA46 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		24F9BAFB18AB3AF60002AA46 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		24F9BAFC18AB3AF60002AA46 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		24F9BB0618AB40CE0002AA46 /* background_login.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background_login.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,12 +116,10 @@
 		2427DFE018A9E68800FC9BA9 /* Chef.me */ = {
 			isa = PBXGroup;
 			children = (
-				2427DFE918A9E68800FC9BA9 /* AppDelegate.h */,
-				2427DFEA18A9E68800FC9BA9 /* AppDelegate.m */,
+				24F9BB0218AB3EF40002AA46 /* Classes */,
 				2427DFEC18A9E68800FC9BA9 /* Main.storyboard */,
-				2427DFEF18A9E68800FC9BA9 /* ViewController.h */,
-				2427DFF018A9E68800FC9BA9 /* ViewController.m */,
 				2427DFF218A9E68800FC9BA9 /* Images.xcassets */,
+				24F9BB0318AB3F090002AA46 /* Resources */,
 				2427DFE118A9E68800FC9BA9 /* Supporting Files */,
 			);
 			path = Chef.me;
@@ -150,6 +152,66 @@
 				2427E00218A9E68800FC9BA9 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		24F9BAFF18AB3E240002AA46 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		24F9BB0018AB3E3C0002AA46 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		24F9BB0118AB3E440002AA46 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				24F9BAFA18AB3AF60002AA46 /* LoginViewController.h */,
+				24F9BAFB18AB3AF60002AA46 /* LoginViewController.m */,
+				24F9BAFC18AB3AF60002AA46 /* LoginViewController.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		24F9BB0218AB3EF40002AA46 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				24F9BB0418AB3F210002AA46 /* AppDelegate */,
+				24F9BAFF18AB3E240002AA46 /* Models */,
+				24F9BB0018AB3E3C0002AA46 /* Views */,
+				24F9BB0118AB3E440002AA46 /* Controllers */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		24F9BB0318AB3F090002AA46 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				24F9BB0518AB3F820002AA46 /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		24F9BB0418AB3F210002AA46 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				2427DFE918A9E68800FC9BA9 /* AppDelegate.h */,
+				2427DFEA18A9E68800FC9BA9 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		24F9BB0518AB3F820002AA46 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				24F9BB0618AB40CE0002AA46 /* background_login.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,8 +290,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24F9BAFE18AB3AF60002AA46 /* LoginViewController.xib in Resources */,
 				2427DFF318A9E68800FC9BA9 /* Images.xcassets in Resources */,
 				2427DFE518A9E68800FC9BA9 /* InfoPlist.strings in Resources */,
+				24F9BB0718AB40CE0002AA46 /* background_login.jpg in Resources */,
 				2427DFEE18A9E68800FC9BA9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,9 +313,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2427DFF118A9E68800FC9BA9 /* ViewController.m in Sources */,
 				2427DFEB18A9E68800FC9BA9 /* AppDelegate.m in Sources */,
 				2427DFE718A9E68800FC9BA9 /* main.m in Sources */,
+				24F9BAFD18AB3AF60002AA46 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +524,7 @@
 				2427E00B18A9E68800FC9BA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2427E00C18A9E68800FC9BA9 /* Build configuration list for PBXNativeTarget "Chef.meTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +533,7 @@
 				2427E00E18A9E68800FC9BA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

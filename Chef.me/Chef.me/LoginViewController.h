@@ -10,4 +10,9 @@
 
 @interface LoginViewController : UIViewController
 
+@property (nonatomic, strong) IBOutlet UIActivityIndicatorView *activityIndicator;
+
+- (IBAction)loginWithFacebookButtonTouchHandler:(id)sender;
+- (IBAction)loginWithTwitterButtonTouchHandler:(id)sender;
+
 @end

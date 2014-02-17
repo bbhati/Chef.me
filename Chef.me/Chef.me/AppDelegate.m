@@ -7,23 +7,34 @@
 //
 
 #import "AppDelegate.h"
+<<<<<<< HEAD
 #import "LoginViewController.h"
 #import "PropertyConfigViewController.h"
 #import "Parse/Parse.h"
+=======
+#import "MainViewController.h"
+>>>>>>> 5864a3adc845a5d149b5c49d55957cd7c8677fa0
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
-    PropertyConfigViewController *loginViewController = [[PropertyConfigViewController alloc] init];
-    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:loginViewController];
-    self.window.rootViewController = navController;
-    
+
     [Parse setApplicationId:@"G0eP59QGmBZWO2v4klysid1aDMvkVcMwmoHbAd3U" clientKey:@"JYQQiB2CVxXS0olE122ZQbpnb00GmCJEO4nucrOI"];
     [PFFacebookUtils initializeFacebook];
     [PFTwitterUtils initializeWithConsumerKey:@"z39gMQFuVMjOCXrCxHXA"consumerSecret:@"0pvLD7D8R5vudQckJSwjT0EB2lcw4rg7sl1MR7Xa2tU"];
+    // Override point for customization after application launch.
+    //PropertyConfigViewController *loginViewController = [[PropertyConfigViewController alloc] init];
+    //UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:loginViewController];
+    //self.window.rootViewController = navController;
     
+    MainViewController*mainVC = [[MainViewController alloc] init];
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:mainVC];
+    self.window.rootViewController = navController;
+//    self.window.rootViewController = mainVC;
+
+    [self.window makeKeyAndVisible];
+
     return YES;
 }
 
@@ -68,6 +79,10 @@
      See also applicationDidEnterBackground:.
      */
     [[PFFacebookUtils session] close];
+}
+
+- (NSUInteger)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window {
+    return UIInterfaceOrientationMaskPortrait;
 }
 
 @end

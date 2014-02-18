@@ -138,9 +138,23 @@
 		2427DFFC18A9E68800FC9BA9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2427DFDE18A9E68800FC9BA9 /* UIKit.framework */; };
 		2427E00418A9E68800FC9BA9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2427E00218A9E68800FC9BA9 /* InfoPlist.strings */; };
 		2427E00618A9E68800FC9BA9 /* Chef_meTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2427E00518A9E68800FC9BA9 /* Chef_meTests.m */; };
+		24316EDF18B2CC90003D3253 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24316EDE18B2CC90003D3253 /* Parse.framework */; };
+		24316EE118B2CF5B003D3253 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24316EE018B2CF5B003D3253 /* AudioToolbox.framework */; };
+		24316EE318B2CF62003D3253 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24316EE218B2CF62003D3253 /* CFNetwork.framework */; };
+		24316EE518B2CF72003D3253 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24316EE418B2CF72003D3253 /* CoreLocation.framework */; };
+		24316EE718B2CF7D003D3253 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 24316EE618B2CF7D003D3253 /* libz.dylib */; };
+		24316EE918B2CF85003D3253 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24316EE818B2CF85003D3253 /* MobileCoreServices.framework */; };
+		24316EEB18B2CF8C003D3253 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24316EEA18B2CF8C003D3253 /* QuartzCore.framework */; };
+		24316EED18B2CF95003D3253 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24316EEC18B2CF95003D3253 /* Security.framework */; };
+		24316EEF18B2CF9A003D3253 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24316EEE18B2CF9A003D3253 /* StoreKit.framework */; };
+		24316EF118B2CFA6003D3253 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24316EF018B2CFA6003D3253 /* SystemConfiguration.framework */; };
+		24316EF518B2D067003D3253 /* PropertyConfigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24316EF318B2D067003D3253 /* PropertyConfigViewController.m */; };
+		24316EF618B2D067003D3253 /* PropertyConfigViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24316EF418B2D067003D3253 /* PropertyConfigViewController.xib */; };
+		24316EFA18B2D072003D3253 /* UserAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24316EF818B2D072003D3253 /* UserAccountViewController.m */; };
+		24316EFB18B2D072003D3253 /* UserAccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24316EF918B2D072003D3253 /* UserAccountViewController.xib */; };
+		24316EFD18B2D189003D3253 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24316EFC18B2D189003D3253 /* FacebookSDK.framework */; };
 		24F9BAFD18AB3AF60002AA46 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F9BAFB18AB3AF60002AA46 /* LoginViewController.m */; };
 		24F9BAFE18AB3AF60002AA46 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24F9BAFC18AB3AF60002AA46 /* LoginViewController.xib */; };
-		24F9BB0718AB40CE0002AA46 /* background_login.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 24F9BB0618AB40CE0002AA46 /* background_login.jpg */; };
 		4937020D5593422DAB8393AE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A6002CA4DCA409EBF2F2A4D /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -307,10 +321,26 @@
 		2427E00118A9E68800FC9BA9 /* Chef.meTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Chef.meTests-Info.plist"; sourceTree = "<group>"; };
 		2427E00318A9E68800FC9BA9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2427E00518A9E68800FC9BA9 /* Chef_meTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Chef_meTests.m; sourceTree = "<group>"; };
+		24316EDE18B2CC90003D3253 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		24316EE018B2CF5B003D3253 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		24316EE218B2CF62003D3253 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		24316EE418B2CF72003D3253 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		24316EE618B2CF7D003D3253 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		24316EE818B2CF85003D3253 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		24316EEA18B2CF8C003D3253 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		24316EEC18B2CF95003D3253 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		24316EEE18B2CF9A003D3253 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		24316EF018B2CFA6003D3253 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		24316EF218B2D067003D3253 /* PropertyConfigViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropertyConfigViewController.h; sourceTree = "<group>"; };
+		24316EF318B2D067003D3253 /* PropertyConfigViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropertyConfigViewController.m; sourceTree = "<group>"; };
+		24316EF418B2D067003D3253 /* PropertyConfigViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PropertyConfigViewController.xib; sourceTree = "<group>"; };
+		24316EF718B2D072003D3253 /* UserAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserAccountViewController.h; sourceTree = "<group>"; };
+		24316EF818B2D072003D3253 /* UserAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserAccountViewController.m; sourceTree = "<group>"; };
+		24316EF918B2D072003D3253 /* UserAccountViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserAccountViewController.xib; sourceTree = "<group>"; };
+		24316EFC18B2D189003D3253 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 		24F9BAFA18AB3AF60002AA46 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		24F9BAFB18AB3AF60002AA46 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		24F9BAFC18AB3AF60002AA46 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
-		24F9BB0618AB40CE0002AA46 /* background_login.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background_login.jpg; sourceTree = "<group>"; };
 		6A6002CA4DCA409EBF2F2A4D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -319,10 +349,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24316EF118B2CFA6003D3253 /* SystemConfiguration.framework in Frameworks */,
+				24316EEF18B2CF9A003D3253 /* StoreKit.framework in Frameworks */,
+				24316EED18B2CF95003D3253 /* Security.framework in Frameworks */,
+				24316EEB18B2CF8C003D3253 /* QuartzCore.framework in Frameworks */,
+				24316EE918B2CF85003D3253 /* MobileCoreServices.framework in Frameworks */,
+				24316EE718B2CF7D003D3253 /* libz.dylib in Frameworks */,
+				24316EE518B2CF72003D3253 /* CoreLocation.framework in Frameworks */,
 				2427DFDD18A9E68800FC9BA9 /* CoreGraphics.framework in Frameworks */,
+				24316EE318B2CF62003D3253 /* CFNetwork.framework in Frameworks */,
+				24316EE118B2CF5B003D3253 /* AudioToolbox.framework in Frameworks */,
 				2427DFDF18A9E68800FC9BA9 /* UIKit.framework in Frameworks */,
+				24316EFD18B2D189003D3253 /* FacebookSDK.framework in Frameworks */,
 				2427DFDB18A9E68800FC9BA9 /* Foundation.framework in Frameworks */,
 				4937020D5593422DAB8393AE /* libPods.a in Frameworks */,
+				24316EDF18B2CC90003D3253 /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +550,17 @@
 		2427DFD918A9E68800FC9BA9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				24316EFC18B2D189003D3253 /* FacebookSDK.framework */,
+				24316EF018B2CFA6003D3253 /* SystemConfiguration.framework */,
+				24316EEE18B2CF9A003D3253 /* StoreKit.framework */,
+				24316EEC18B2CF95003D3253 /* Security.framework */,
+				24316EEA18B2CF8C003D3253 /* QuartzCore.framework */,
+				24316EE818B2CF85003D3253 /* MobileCoreServices.framework */,
+				24316EE618B2CF7D003D3253 /* libz.dylib */,
+				24316EE418B2CF72003D3253 /* CoreLocation.framework */,
+				24316EE218B2CF62003D3253 /* CFNetwork.framework */,
+				24316EE018B2CF5B003D3253 /* AudioToolbox.framework */,
+				24316EDE18B2CC90003D3253 /* Parse.framework */,
 				2427DFDA18A9E68800FC9BA9 /* Foundation.framework */,
 				2427DFDC18A9E68800FC9BA9 /* CoreGraphics.framework */,
 				2427DFDE18A9E68800FC9BA9 /* UIKit.framework */,
@@ -583,6 +635,12 @@
 		24F9BB0118AB3E440002AA46 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				24316EF718B2D072003D3253 /* UserAccountViewController.h */,
+				24316EF818B2D072003D3253 /* UserAccountViewController.m */,
+				24316EF918B2D072003D3253 /* UserAccountViewController.xib */,
+				24316EF218B2D067003D3253 /* PropertyConfigViewController.h */,
+				24316EF318B2D067003D3253 /* PropertyConfigViewController.m */,
+				24316EF418B2D067003D3253 /* PropertyConfigViewController.xib */,
 				24F9BAFA18AB3AF60002AA46 /* LoginViewController.h */,
 				24F9BAFB18AB3AF60002AA46 /* LoginViewController.m */,
 				24F9BAFC18AB3AF60002AA46 /* LoginViewController.xib */,
@@ -616,7 +674,6 @@
 		24F9BB0318AB3F090002AA46 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				24F9BB0518AB3F820002AA46 /* Images */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -628,14 +685,6 @@
 				2427DFEA18A9E68800FC9BA9 /* AppDelegate.m */,
 			);
 			name = AppDelegate;
-			sourceTree = "<group>";
-		};
-		24F9BB0518AB3F820002AA46 /* Images */ = {
-			isa = PBXGroup;
-			children = (
-				24F9BB0618AB40CE0002AA46 /* background_login.jpg */,
-			);
-			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -764,7 +813,6 @@
 				1CEFCFC318B1F41C00C0C74D /* meat1.png in Resources */,
 				2427DFE518A9E68800FC9BA9 /* InfoPlist.strings in Resources */,
 				1CEFCF9F18B1F41C00C0C74D /* 30.png in Resources */,
-				24F9BB0718AB40CE0002AA46 /* background_login.jpg in Resources */,
 				1CEFCF9618B1F41C00C0C74D /* 22.png in Resources */,
 				1CEFCF4318B1F41C00C0C74D /* chilli1.png in Resources */,
 				1CEFCF9B18B1F41C00C0C74D /* chilli2.png in Resources */,
@@ -783,6 +831,7 @@
 				1CEFCFB818B1F41C00C0C74D /* 53.png in Resources */,
 				1CEFCFB918B1F41C00C0C74D /* 54.png in Resources */,
 				1CEFCF9718B1F41C00C0C74D /* 23.png in Resources */,
+				24316EFB18B2D072003D3253 /* UserAccountViewController.xib in Resources */,
 				1CEFCF9018B1F41C00C0C74D /* 198.png in Resources */,
 				1C4D15A418B0B92900DD9578 /* image3.jpg in Resources */,
 				1CEFCFA518B1F41C00C0C74D /* 36.png in Resources */,
@@ -818,6 +867,7 @@
 				1CEFCF8718B1F41C00C0C74D /* garlic2.png in Resources */,
 				1CEFCFB318B1F41C00C0C74D /* 49.png in Resources */,
 				1CEFCFA818B1F41C00C0C74D /* 39.png in Resources */,
+				24316EF618B2D067003D3253 /* PropertyConfigViewController.xib in Resources */,
 				2427DFEE18A9E68800FC9BA9 /* Main.storyboard in Resources */,
 				1CEFCF4818B1F41C00C0C74D /* 132.png in Resources */,
 				1C4D15A918B0B92900DD9578 /* image8.jpg in Resources */,
@@ -886,7 +936,9 @@
 				1C4D159818B0A72D00DD9578 /* ContentViewController.m in Sources */,
 				1CEFCE4A18B1B59B00C0C74D /* RecipeListViewController.m in Sources */,
 				1C4D159318B09ECA00DD9578 /* MPFlipTransition.m in Sources */,
+				24316EFA18B2D072003D3253 /* UserAccountViewController.m in Sources */,
 				1C4D158218B051AE00DD9578 /* RestObject.m in Sources */,
+				24316EF518B2D067003D3253 /* PropertyConfigViewController.m in Sources */,
 				1C16B07418AC791000B96DBA /* MainViewController.m in Sources */,
 				1C4D159418B09ECA00DD9578 /* MPFlipViewController.m in Sources */,
 				1C4D158118B051AE00DD9578 /* NSDictionary+CPAdditions.m in Sources */,
@@ -1020,11 +1072,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/kshah/projects/iOS/Chef.me/Chef.me,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Chef.me/Chef.me-Prefix.pch";
 				INFOPLIST_FILE = "Chef.me/Chef.me-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1035,11 +1092,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/kshah/projects/iOS/Chef.me/Chef.me,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Chef.me/Chef.me-Prefix.pch";
 				INFOPLIST_FILE = "Chef.me/Chef.me-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

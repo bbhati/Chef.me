@@ -7,13 +7,10 @@
 //
 
 #import "AppDelegate.h"
-<<<<<<< HEAD
 #import "LoginViewController.h"
 #import "PropertyConfigViewController.h"
 #import "Parse/Parse.h"
-=======
 #import "MainViewController.h"
->>>>>>> 5864a3adc845a5d149b5c49d55957cd7c8677fa0
 
 @implementation AppDelegate
 

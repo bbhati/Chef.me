@@ -5,36 +5,36 @@ iOS class project
 
 User will see a dynamic splash screen for the very first time app is opened
 
-![alt tag](https://raw.github.com/bbhati/Chef.me/master/mockups/Splash_Screen.png)
+![alt tag](https://raw.github.com/bbhati/Chef.me/tempV1/mockups/Splash_Screen.png)
 
 1) Once the user has opened the app atleast once, the first screen shows trending recipes on upper part and courses categorized below.
 
-![alt tag](https://raw.github.com/bbhati/Chef.me/master/mockups/screenshot_home.png)
+![alt tag](https://raw.github.com/bbhati/Chef.me/tempV1/mockups/screenshot_home.png)
 
 2) On opening a category, tableview: 
 
-![alt tag](https://raw.github.com/bbhati/Chef.me/master/mockups/tableview.png)
+![alt tag](https://raw.github.com/bbhati/Chef.me/tempV1/mockups/tableview.png)
 
 3) After selecting a recipe: Tabbed view with tabs: Description, Ingredients and Steps
 
-![alt tag](https://raw.github.com/bbhati/Chef.me/master/mockups/RecipeDescription.png)
+![alt tag](https://raw.github.com/bbhati/Chef.me/tempV1/mockups/RecipeDescription.png)
 
-![alt tag](https://raw.github.com/bbhati/Chef.me/master/mockups/Ingredients.png) 
+![alt tag](https://raw.github.com/bbhati/Chef.me/tempV1/mockups/Ingredients.png) 
 
 User can add/remove items from ingredients to the shoping cart. Ingredients can be updated based on Serving count.
 
-![alt tag](https://raw.github.com/bbhati/Chef.me/master/mockups/RecipeSteps.png)
+![alt tag](https://raw.github.com/bbhati/Chef.me/tempV1/mockups/RecipeSteps.png)
 
 4) Each screen has a hamburger view
 
-![alt tag](https://raw.github.com/bbhati/Chef.me/master/mockups/hamburger.png)
+![alt tag](https://raw.github.com/bbhati/Chef.me/tempV1/mockups/hamburger.png)
 
 5) Shopping cart
 
-![alt tag](https://raw.github.com/bbhati/Chef.me/master/mockups/ShoppingCart.png)
+![alt tag](https://raw.github.com/bbhati/Chef.me/tempV1/mockups/ShoppingCart.png)
 
 6) Once done is pressed from shopping cart, Shipping and price info is presented.
-![alt tag](https://raw.github.com/bbhati/Chef.me/master/mockups/shipping.png)
+![alt tag](https://raw.github.com/bbhati/Chef.me/tempV1/mockups/shipping.png)
 
 Proceed to checkout redirects the user to stripe for payment, if the user is already logged in. If the user is not logged in, a login screen will appear.
 
@@ -48,19 +48,19 @@ If a user is not already logged in, they will be required to login in 3 scenario
   
 Account/Settings page:
 
-![alt tag](https://raw.github.com/bbhati/Chef.me/master/mockups/Screen%20Shot%202014-02-04%20at%209.39.02%20AM.png)
+![alt tag](https://raw.github.com/bbhati/Chef.me/tempV1/mockups/Screen%20Shot%202014-02-04%20at%209.39.02%20AM.png)
 
 Payment Confirmation:
 
-![alt tag](https://raw.github.com/bbhati/Chef.me/master/mockups/PaymentConfirmation.png)
+![alt tag](https://raw.github.com/bbhati/Chef.me/tempV1/mockups/PaymentConfirmation.png)
 
 Login screen: 
 
-![alt tag](https://raw.github.com/bbhati/Chef.me/master/mockups/login_screen.png)
+![alt tag](https://raw.github.com/bbhati/Chef.me/tempV1/mockups/login_screen.png)
 
 Favorites/Bookmarks:
 
-![alt tag](https://raw.github.com/bbhati/Chef.me/master/mockups/favorites.png)
+![alt tag](https://raw.github.com/bbhati/Chef.me/tempV1/mockups/favorites.png)
 
 
 

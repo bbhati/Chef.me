@@ -10,8 +10,12 @@
 
 @interface PropertyConfigViewController : UIViewController <PFLogInViewControllerDelegate>
 
-@property (nonatomic, strong) IBOutlet UILabel *welcomeLabel;
+@property (nonatomic, strong) IBOutlet UILabel *facebookLabel;
+@property (nonatomic, strong) IBOutlet UILabel *twitterLabel;
+@property (weak, nonatomic) IBOutlet UIButton *facebookSignOutButton;
+@property (weak, nonatomic) IBOutlet UIButton *twitterSignOutButton;
 
-- (IBAction)logOutButtonTapAction:(id)sender;
+- (IBAction)logOutFacebookButtonTapAction:(id)sender;
+- (IBAction)logOutTwitterTapAction:(id)sender;
 
 @end

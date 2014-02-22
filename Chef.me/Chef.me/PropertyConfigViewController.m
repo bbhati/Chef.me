@@ -17,16 +17,23 @@
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     
+    self.facebookLabel.text = NSLocalizedString(@"Not logged in", nil);
+    self.twitterLabel.text = NSLocalizedString(@"Not logged in", nil);
+    self.facebookSignOutButton.hidden = YES;
+    self.twitterSignOutButton.hidden = YES;
+    
     if ([PFUser currentUser]) {
         // If the user is logged in, show their name in the welcome label.
         
         if ([PFTwitterUtils isLinkedWithUser:[PFUser currentUser]]) {
             // If user is linked to Twitter, we'll use their Twitter screen name
-            self.welcomeLabel.text =[NSString stringWithFormat:NSLocalizedString(@"Welcome @%@!", nil), [PFTwitterUtils twitter].screenName];
+            self.twitterLabel.text =[NSString stringWithFormat:NSLocalizedString(@"@%@", nil), [PFTwitterUtils twitter].screenName];
+            self.twitterSignOutButton.hidden = NO;
+
             
         } else if ([PFFacebookUtils isLinkedWithUser:[PFUser currentUser]]) {
             // If user is linked to Facebook, we'll use the Facebook Graph API to fetch their full name. But first, show a generic Welcome label.
-            self.welcomeLabel.text =[NSString stringWithFormat:NSLocalizedString(@"Welcome!", nil)];
+            self.facebookLabel.text =[NSString stringWithFormat:NSLocalizedString(@"", nil)];
             
             // Create Facebook Request for user's details
             FBRequest *request = [FBRequest requestForMe];
@@ -35,19 +42,19 @@
                 if (!error) {
                     NSString *displayName = result[@"name"];
                     if (displayName) {
-                        self.welcomeLabel.text =[NSString stringWithFormat:NSLocalizedString(@"Welcome %@!", nil), displayName];
+                        self.facebookLabel.text =[NSString stringWithFormat:NSLocalizedString(@"%@", nil), displayName];
                     }
+                    self.twitterSignOutButton.hidden = NO;
+
                 }
             }];
             
         } else {
             // If user is linked to neither, let's use their username for the Welcome label.
-            self.welcomeLabel.text =[NSString stringWithFormat:NSLocalizedString(@"Welcome %@!", nil), [PFUser currentUser].username];
+            self.facebookLabel.text =[NSString stringWithFormat:NSLocalizedString(@"Welcome %@!", nil), [PFUser currentUser].username];
             
         }
         
-    } else {
-        self.welcomeLabel.text = NSLocalizedString(@"Not logged in", nil);
     }
 }
 
@@ -90,9 +97,14 @@
 
 #pragma mark - ()
 
-- (IBAction)logOutButtonTapAction:(id)sender {
+- (IBAction)logOutFacebookButtonTapAction:(id)sender {
     [PFUser logOut];
     [self.navigationController popViewControllerAnimated:YES];
+}
+
+- (IBAction)logOutTwitterTapAction:(id)sender {
+    [PFUser logOut];
+    [self.navigationController popToRootViewControllerAnimated:YES];
 }
 
 @end

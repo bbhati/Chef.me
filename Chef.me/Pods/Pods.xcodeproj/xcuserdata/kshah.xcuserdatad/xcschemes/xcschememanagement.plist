@@ -9,7 +9,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-PaymentKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Reachability.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Stripe.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -22,17 +32,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>2C062B4114CD40EDB3B5388D</key>
+		<key>354550FBDA0B41319750CB8E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>398B9C77E8F24EF0A1A5B08E</key>
+		<key>6A89007FF9414FE390E287D8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>81DB1F3404DE476DA3E58CA9</key>
+		<key>AE6367EECCB6471991F03F38</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D635250A54B048B1ADD6C139</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F8241BACF5114E6391DC8531</key>
 		<dict>
 			<key>primary</key>
 			<true/>

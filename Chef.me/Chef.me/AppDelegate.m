@@ -11,6 +11,7 @@
 #import "PropertyConfigViewController.h"
 #import "Parse/Parse.h"
 #import "MainViewController.h"
+#import "StripeViewController.h"
 
 @implementation AppDelegate
 
@@ -21,15 +22,16 @@
     [PFFacebookUtils initializeFacebook];
     [PFTwitterUtils initializeWithConsumerKey:@"z39gMQFuVMjOCXrCxHXA"consumerSecret:@"0pvLD7D8R5vudQckJSwjT0EB2lcw4rg7sl1MR7Xa2tU"];
     // Override point for customization after application launch.
-    //PropertyConfigViewController *loginViewController = [[PropertyConfigViewController alloc] init];
-    //UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:loginViewController];
-    //self.window.rootViewController = navController;
-    
-    MainViewController*mainVC = [[MainViewController alloc] init];
-    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:mainVC];
+    StripeViewController *loginViewController = [[StripeViewController alloc] init];
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:loginViewController];
     self.window.rootViewController = navController;
+    
+    
+//    MainViewController*mainVC = [[MainViewController alloc] init];
+//    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:mainVC];
+//    self.window.rootViewController = navController;
 //    self.window.rootViewController = mainVC;
-
+    
     [self.window makeKeyAndVisible];
 
     return YES;

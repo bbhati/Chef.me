@@ -153,6 +153,9 @@
 		24316EFA18B2D072003D3253 /* UserAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24316EF818B2D072003D3253 /* UserAccountViewController.m */; };
 		24316EFB18B2D072003D3253 /* UserAccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24316EF918B2D072003D3253 /* UserAccountViewController.xib */; };
 		24316EFD18B2D189003D3253 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24316EFC18B2D189003D3253 /* FacebookSDK.framework */; };
+		24316F0018B30521003D3253 /* Bookmarks.m in Sources */ = {isa = PBXBuildFile; fileRef = 24316EFF18B30521003D3253 /* Bookmarks.m */; };
+		245B8A1718B3439C009F8C9F /* StripeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 245B8A1518B3439C009F8C9F /* StripeViewController.m */; };
+		245B8A1818B3439C009F8C9F /* StripeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 245B8A1618B3439C009F8C9F /* StripeViewController.xib */; };
 		24F9BAFD18AB3AF60002AA46 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F9BAFB18AB3AF60002AA46 /* LoginViewController.m */; };
 		24F9BAFE18AB3AF60002AA46 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24F9BAFC18AB3AF60002AA46 /* LoginViewController.xib */; };
 		4937020D5593422DAB8393AE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A6002CA4DCA409EBF2F2A4D /* libPods.a */; };
@@ -338,6 +341,11 @@
 		24316EF818B2D072003D3253 /* UserAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserAccountViewController.m; sourceTree = "<group>"; };
 		24316EF918B2D072003D3253 /* UserAccountViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserAccountViewController.xib; sourceTree = "<group>"; };
 		24316EFC18B2D189003D3253 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		24316EFE18B30521003D3253 /* Bookmarks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bookmarks.h; sourceTree = "<group>"; };
+		24316EFF18B30521003D3253 /* Bookmarks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bookmarks.m; sourceTree = "<group>"; };
+		245B8A1418B3439C009F8C9F /* StripeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StripeViewController.h; sourceTree = "<group>"; };
+		245B8A1518B3439C009F8C9F /* StripeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StripeViewController.m; sourceTree = "<group>"; };
+		245B8A1618B3439C009F8C9F /* StripeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StripeViewController.xib; sourceTree = "<group>"; };
 		24F9BAFA18AB3AF60002AA46 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		24F9BAFB18AB3AF60002AA46 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		24F9BAFC18AB3AF60002AA46 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
@@ -621,6 +629,8 @@
 				1CEFCE4D18B1B6FC00C0C74D /* Recipe.m */,
 				1CEFCFEB18B218E600C0C74D /* RecipeCell.h */,
 				1CEFCFEC18B218E600C0C74D /* RecipeCell.m */,
+				24316EFE18B30521003D3253 /* Bookmarks.h */,
+				24316EFF18B30521003D3253 /* Bookmarks.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -654,6 +664,9 @@
 				1CEFCE4718B1B59B00C0C74D /* RecipeListViewController.h */,
 				1CEFCE4818B1B59B00C0C74D /* RecipeListViewController.m */,
 				1CEFCE4918B1B59B00C0C74D /* RecipeListViewController.xib */,
+				245B8A1418B3439C009F8C9F /* StripeViewController.h */,
+				245B8A1518B3439C009F8C9F /* StripeViewController.m */,
+				245B8A1618B3439C009F8C9F /* StripeViewController.xib */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -736,6 +749,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = Codepath;
 				TargetAttributes = {
+					2427DFD618A9E68800FC9BA9 = {
+						DevelopmentTeam = G28C52EEHV;
+					};
 					2427DFF718A9E68800FC9BA9 = {
 						TestTargetID = 2427DFD618A9E68800FC9BA9;
 					};
@@ -858,6 +874,7 @@
 				1CEFCF8118B1F41C00C0C74D /* 184.png in Resources */,
 				1C4D15B518B0B9E400DD9578 /* image12.jpg in Resources */,
 				1CEFCFB118B1F41C00C0C74D /* mushroom.png in Resources */,
+				245B8A1818B3439C009F8C9F /* StripeViewController.xib in Resources */,
 				1CEFCF7D18B1F41C00C0C74D /* 180.png in Resources */,
 				1CEFCF4618B1F41C00C0C74D /* bread.png in Resources */,
 				1CEFCF9318B1F41C00C0C74D /* 20.png in Resources */,
@@ -933,6 +950,7 @@
 				1C16B07918AC7AAF00B96DBA /* YummlyClient.m in Sources */,
 				2427DFE718A9E68800FC9BA9 /* main.m in Sources */,
 				1CEFCE5318B1C14200C0C74D /* Utilities.m in Sources */,
+				24316F0018B30521003D3253 /* Bookmarks.m in Sources */,
 				1C4D159818B0A72D00DD9578 /* ContentViewController.m in Sources */,
 				1CEFCE4A18B1B59B00C0C74D /* RecipeListViewController.m in Sources */,
 				1C4D159318B09ECA00DD9578 /* MPFlipTransition.m in Sources */,
@@ -941,6 +959,7 @@
 				24316EF518B2D067003D3253 /* PropertyConfigViewController.m in Sources */,
 				1C16B07418AC791000B96DBA /* MainViewController.m in Sources */,
 				1C4D159418B09ECA00DD9578 /* MPFlipViewController.m in Sources */,
+				245B8A1718B3439C009F8C9F /* StripeViewController.m in Sources */,
 				1C4D158118B051AE00DD9578 /* NSDictionary+CPAdditions.m in Sources */,
 				1C4D159218B09ECA00DD9578 /* MPAnimation.m in Sources */,
 				24F9BAFD18AB3AF60002AA46 /* LoginViewController.m in Sources */,
@@ -1070,8 +1089,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 02021505B33E47839E9A7BAB /* Pods.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/kshah/projects/iOS/Chef.me/Chef.me,
@@ -1080,7 +1102,9 @@
 				GCC_PREFIX_HEADER = "Chef.me/Chef.me-Prefix.pch";
 				INFOPLIST_FILE = "Chef.me/Chef.me-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1090,8 +1114,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 02021505B33E47839E9A7BAB /* Pods.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/kshah/projects/iOS/Chef.me/Chef.me,
@@ -1100,7 +1127,9 @@
 				GCC_PREFIX_HEADER = "Chef.me/Chef.me-Prefix.pch";
 				INFOPLIST_FILE = "Chef.me/Chef.me-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
